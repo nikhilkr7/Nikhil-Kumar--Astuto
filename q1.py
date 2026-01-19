@@ -52,7 +52,7 @@ def first_stable_character(s):
         None
     """
     # TODO: Implement your solution here
-      if len(s) < 2:
+    if len(s) < 2:
         return None
 
     n = len(s)
@@ -74,8 +74,7 @@ def first_stable_character(s):
 
     return None
     pass
-
-
+  
 if __name__ == "__main__":
     # Test your solution here
     print(first_stable_character("abccba"))  # Should print: c
