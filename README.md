@@ -72,9 +72,9 @@ python q3.py
 **Submission Form:** https://forms.gle/szQUUJcK2CyUSoBT8
 
 You'll need to provide:
-- Your name
-- Your email
-- Your GitHub repository URL (e.g., `https://github.com/YOUR_USERNAME/YOUR_REPO_NAME`)
+- Nikhil Kumar
+- nk7256@srmist.edu.in
+- [Your GitHub repository URL (e.g., `https://github.com/YOUR_USERNAME/YOUR_REPO_NAME`)](https://github.com/nikhilkr7/Nikhil-Kumar--Astuto)
 
 ## Files in This Repository
 
