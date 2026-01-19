@@ -52,6 +52,27 @@ def first_stable_character(s):
         None
     """
     # TODO: Implement your solution here
+      if len(s) < 2:
+        return None
+
+    n = len(s)
+    i = 0
+
+    while i < n:
+        j = i
+
+        while j < n and s[j] == s[i]:
+            j += 1
+
+        block_length = j - i
+
+        if block_length >= 2:
+            if s[i] not in s[j:]:
+                return s[i]
+
+        i = j
+
+    return None
     pass
 
 
