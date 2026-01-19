@@ -67,8 +67,34 @@ def find_overloaded_users(events):
         set()
     """
     # TODO: Implement your solution here
-    pass
+    from collections import defaultdict
 
+    if not events:
+        return set()
+
+
+    user_events = defaultdict(list)
+    for user_id, timestamp in events:
+        user_events[user_id].append(timestamp)
+
+    overloaded = set()
+
+
+    for user_id, times in user_events.items():
+        times.sort()
+        left = 0
+
+        for right in range(len(times)):
+            while times[right] - times[left] >= 10:
+                left += 1
+
+            if right - left + 1 >= 3:
+                overloaded.add(user_id)
+                break
+
+    return overloaded
+
+    pass
 
 if __name__ == "__main__":
     # Test your solution here
