@@ -74,7 +74,7 @@ python q3.py
 You'll need to provide:
 - Nikhil Kumar
 - nk7256@srmist.edu.in
-- [Your GitHub repository URL (e.g., `https://github.com/YOUR_USERNAME/YOUR_REPO_NAME`)](https://github.com/nikhilkr7/Nikhil-Kumar--Astuto)
+- https://github.com/nikhilkr7/Nikhil-Kumar--Astuto
 
 ## Files in This Repository
 
